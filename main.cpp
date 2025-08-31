@@ -1,10 +1,14 @@
 #include <iostream>
+#include <string>
+#include<Person.h>
 using namespace std;
 
 int main()
 {
-    cout << "Hello marwan " << endl;
-    cout << "Hello Rana" << endl;
-    cout << "welcome in world" ;
+     Person p;
+     p.setId(5454);
+     p.setName("sameh");
+     p.setPassword("as333");
+     p.print();
     return 0;
 }

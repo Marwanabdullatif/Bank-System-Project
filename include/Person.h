@@ -1,16 +1,25 @@
 #ifndef PERSON_H
 #define PERSON_H
-
+#include<string>
+using namespace std;
 
 class Person
 {
-    public:
-        Person();
-        virtual ~Person();
+private:
+    int Id;
+    string Name ;
+    string Password ;
+public:
+    void setId(int Id);
+    void setName(string Name) ;
+    void setPassword(string Password);
 
-    protected:
+    int getId();
+    string getname();
+    string getPassword();
 
-    private:
+    void print();
+
 };
 
-#endif // PERSON_H
+#endif // Person_H
