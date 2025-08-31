@@ -1,16 +1,21 @@
 #ifndef CLIENT_H
 #define CLIENT_H
+#include<Person.h>
 
-
-class Client
+class Client : public Person
 {
-    public:
-        Client();
-        virtual ~Client();
+ private:
+    double Balance;
+ public:
+    void setBalance(double Balance);
+    double getBalance();
 
-    protected:
+    void deposit(double amount);
+    void withdraw(double amount);
+    void transferTo(double amount,Client& recipient);
+    void checkBalance();
+    void print2();
 
-    private:
 };
 
 #endif // CLIENT_H

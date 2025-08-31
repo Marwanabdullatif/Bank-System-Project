@@ -15,8 +15,8 @@ public:
     void setPassword(string Password);
 
     int getId();
-    string getname();
-    string getPassword();
+    string getName();
+    string getPassword() ;
 
     void print();
 

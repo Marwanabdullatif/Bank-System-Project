@@ -1,26 +1,31 @@
 # depslib dependency file v1.0
-1756334348 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
+1756664285 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
 	<iostream>
+	<string>
+	<Person.h>
+	<Client.h>
 
 1756657504 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
 	"Admin.h"
 
 1756657504 c:\users\alybe\desktop\prog basics\bank system project\include\admin.h
 
-1756657471 source:c:\users\alybe\desktop\prog basics\bank system project\src\client.cpp
+1756664459 source:c:\users\alybe\desktop\prog basics\bank system project\src\client.cpp
 	"Client.h"
+	<iostream>
 
-1756657471 c:\users\alybe\desktop\prog basics\bank system project\include\client.h
+1756664357 c:\users\alybe\desktop\prog basics\bank system project\include\client.h
+	<Person.h>
 
 1756657490 source:c:\users\alybe\desktop\prog basics\bank system project\src\employee.cpp
 	"Employee.h"
 
 1756657490 c:\users\alybe\desktop\prog basics\bank system project\include\employee.h
 
-1756659403 source:c:\users\alybe\desktop\prog basics\bank system project\src\person.cpp
+1756664227 source:c:\users\alybe\desktop\prog basics\bank system project\src\person.cpp
 	"Person.h"
 	<iostream>
 
-1756659547 c:\users\alybe\desktop\prog basics\bank system project\include\person.h
+1756663990 c:\users\alybe\desktop\prog basics\bank system project\include\person.h
 	<string>
 
