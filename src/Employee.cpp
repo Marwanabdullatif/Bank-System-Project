@@ -17,10 +17,11 @@ double Employee::getSalary(){
     return Salary;
 }
 void Employee::print3(){
+ cout << "Emloyee info:" << endl;
  cout << "ID:"<<getId()<<endl;
  cout << "Name:"<<getName()<<endl;
- cout << "password;"<< getPassword()<< endl;
- cout << "salary:"<< getSalary()<< endl;
+ cout << "Password:"<< getPassword()<< endl;
+ cout << "Salary:"<< getSalary()<< endl;
 }
 
 

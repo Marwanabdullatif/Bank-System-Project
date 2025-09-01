@@ -7,6 +7,9 @@ class Client : public Person
  private:
     double Balance;
  public:
+    Client();
+    Client(int Id, string Name, string Password, double Balance);
+
     void setBalance(double Balance);
     double getBalance();
 

@@ -2,12 +2,12 @@
 #include <iostream>
 using namespace std;
 
-void Client::setBalance(double Balance){
-    if(Balance < 1500){
-        cout<< "The minimum balance must be 1500";
-        return;
-    }
-    this->Balance=Balance;
+Client::Client() : Person(){
+    Balance = 1500;
+}
+
+Client::Client(int Id, string Name, string Password, double Balance) : Person(Id, Name, Password) {
+    this->Balance = Balance;
 }
 
 double Client::getBalance(){
@@ -44,12 +44,14 @@ void Client::transferTo(double amount, Client& recipient){
 
 void Client::checkBalance(){
     cout << "Your current balance is: " << Balance << endl;
+    cout<< endl;
 }
 
 void Client::print2(){
     cout << "Client Info:" << endl;
     cout << "ID: " << getId() << endl;
     cout << "Name: " << getName() << endl;
+    cout << "Password:"<< getPassword()<< endl;
     cout << "Balance: " << Balance << endl;
 }
 
