@@ -1,16 +1,6 @@
-#ifndef ADMIN_H
-#define ADMIN_H
+#ifndef ADMIN_H_INCLUDED
+#define ADMIN_H_INCLUDED
 
 
-class Admin
-{
-    public:
-        Admin();
-        virtual ~Admin();
 
-    protected:
-
-    private:
-};
-
-#endif // ADMIN_H
+#endif // ADMIN_H_INCLUDED
