@@ -1,11 +1,11 @@
-#include "Admin.h"
-
-Admin::Admin()
-{
-    //ctor
-}
-
-Admin::~Admin()
-{
-    //dtor
-}
+//#include "Admin.h"
+//
+//Admin::Admin()
+//{
+//    //ctor
+//}
+//
+//Admin::~Admin()
+//{
+//    //dtor
+//}

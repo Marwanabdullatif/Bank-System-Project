@@ -14,6 +14,13 @@ int main()
     c.withdraw(500);
     c.transferTo(300, c2) ;
 
+<<<<<<< Updated upstream
+=======
+     c.setBalance(5000);
+    c.deposit(2000);
+    c.withdraw(1000);
+
+>>>>>>> Stashed changes
     c.print2();
     c.checkBalance();
 

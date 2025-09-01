@@ -1,13 +1,21 @@
 # depslib dependency file v1.0
+<<<<<<< Updated upstream
 1756742517 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
+=======
+1756735671 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
+>>>>>>> Stashed changes
 	<iostream>
 	<string>
 	<Person.h>
 	<Client.h>
 	<Employee.h>
 
+<<<<<<< Updated upstream
 1756738221 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
 	"Admin.h"
+=======
+1756733591 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
+>>>>>>> Stashed changes
 
 1756726714 c:\users\alybe\desktop\prog basics\bank system project\include\admin.h
 
