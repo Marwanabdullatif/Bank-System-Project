@@ -2,8 +2,13 @@
 #include <iostream>
 using namespace std;
 
+Person::Person(int Id,string Name,string password){
+   this->Id=Id;
+   this->Name=Name;
+   this->Password=password;
+}
 void Person::setId(int Id){
-    this->Id = Id ;
+    this->Id =Id ;
 }
 
 void Person::setName(string Name){

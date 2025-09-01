@@ -10,6 +10,7 @@ private:
     string Name ;
     string Password ;
 public:
+    Person(int Id,string Name,string Password);
     void setId(int Id);
     void setName(string Name) ;
     void setPassword(string Password);
