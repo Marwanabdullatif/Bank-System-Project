@@ -3,6 +3,7 @@
 #include<Person.h>
 #include<Client.h>
 #include<Employee.h>
+#include<Admin.h>
 using namespace std;
 
 int main()
@@ -23,6 +24,10 @@ int main()
 
     Employee E1(2, "Rana", "Mah1256", 6000);
     E1.print3();
+
+
+    Admin A1(10,"ahmed","Amd1567",10000);
+    A1.print4();
 
     return 0;
 }
