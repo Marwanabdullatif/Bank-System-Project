@@ -44,12 +44,10 @@ using namespace std;
     string Person::getPassword() { return Password; }
 
 
-<<<<<<< Updated upstream
-    void Person::print(){
+     void Person::print(){
         cout<< "ID: " << Id << ", Name: " << Name << ", Password: "<< Password << endl;
     }
-=======
+
 //void Person::print(){
 //    cout<< "ID: " << Id << ", Name: " << Name << ", Password: "<< Password << endl;
 //}
->>>>>>> Stashed changes

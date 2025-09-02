@@ -3,6 +3,7 @@
 #include<Person.h>
 #include<Client.h>
 #include<Employee.h>
+#include<Admin.h>
 using namespace std;
 
 int main()
@@ -14,14 +15,12 @@ int main()
     c.withdraw(500);
     c.transferTo(300, c2) ;
 
-<<<<<<< Updated upstream
-=======
-     c.setBalance(5000);
+
+    c.setBalance(5000);
     c.deposit(2000);
     c.withdraw(1000);
 
->>>>>>> Stashed changes
-    c.print2();
+     c.print2();
     c.checkBalance();
 
     cout <<endl<< "Recipient Info:"<<endl;
@@ -30,6 +29,9 @@ int main()
 
     Employee E1(2, "Rana", "Mah1256", 6000);
     E1.print3();
+
+    Admin A1(1001, "Tamer", "Teo1515", 9000);
+    A1.print4();
 
     return 0;
 }

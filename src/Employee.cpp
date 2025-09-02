@@ -21,7 +21,7 @@ void Employee::print3(){
  cout << "ID:"<<getId()<<endl;
  cout << "Name:"<<getName()<<endl;
  cout << "Password:"<< getPassword()<< endl;
- cout << "Salary:"<< getSalary()<< endl;
+ cout << "Salary:"<< getSalary()<< endl << endl;
 }
 
 

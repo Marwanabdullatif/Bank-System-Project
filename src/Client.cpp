@@ -10,6 +10,14 @@ Client::Client(int Id, string Name, string Password, double Balance) : Person(Id
     this->Balance = Balance;
 }
 
+void Client::setBalance(double Balance) {
+    if (Balance >= 0) {
+        Balance = Balance;
+    } else {
+        cout << "Invalid balance!" << endl;
+    }
+}
+
 double Client::getBalance(){
     return Balance;
 }

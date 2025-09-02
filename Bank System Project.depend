@@ -1,39 +1,50 @@
 # depslib dependency file v1.0
-<<<<<<< Updated upstream
-1756742517 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
-=======
-1756735671 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
->>>>>>> Stashed changes
+1704632 <<<<<<< Updated upstream
+
+1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
+	<iostream>
+	<string>
+	<Person.h>
+	<Client.h>
+	<Employee.h>
+	<Admin.h>
+
+1756733591 shed changes
 	<iostream>
 	<string>
 	<Person.h>
 	<Client.h>
 	<Employee.h>
 
-<<<<<<< Updated upstream
-1756738221 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
-	"Admin.h"
-=======
-1756733591 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
->>>>>>> Stashed changes
+1756735671 ated upstream
 
-1756726714 c:\users\alybe\desktop\prog basics\bank system project\include\admin.h
+1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
+	<iostream>
+	<Person.h>
+	<Employee.h>
+	<Admin.h>
 
-1756741531 source:c:\users\alybe\desktop\prog basics\bank system project\src\client.cpp
+1756738221 
+
+1756827792 c:\users\alybe\desktop\prog basics\bank system project\include\admin.h
+	<Person.h>
+	<Employee.h>
+
+1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\client.cpp
 	"Client.h"
 	<iostream>
 
 1756741531 c:\users\alybe\desktop\prog basics\bank system project\include\client.h
 	<Person.h>
 
-1756741531 source:c:\users\alybe\desktop\prog basics\bank system project\src\employee.cpp
+1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\employee.cpp
 	"Employee.h"
 	<iostream>
 
 1756738224 c:\users\alybe\desktop\prog basics\bank system project\include\employee.h
 	<Person.h>
 
-1756741531 source:c:\users\alybe\desktop\prog basics\bank system project\src\person.cpp
+1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\person.cpp
 	"Person.h"
 	<iostream>
 
