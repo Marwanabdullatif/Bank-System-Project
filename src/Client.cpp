@@ -1,6 +1,14 @@
 #include "Client.h"
+#include<Validation.h>
 #include <iostream>
 using namespace std;
+
+ void Client::setBalance(double Balance) {
+    if (Validation::validateBalance(Balance)) {
+        this->Balance = Balance;
+    }
+}
+
 
 Client::Client() : Person(){
     Balance = 1500;
@@ -10,13 +18,6 @@ Client::Client(int Id, string Name, string Password, double Balance) : Person(Id
     this->Balance = Balance;
 }
 
-void Client::setBalance(double Balance) {
-    if (Balance >= 0) {
-        Balance = Balance;
-    } else {
-        cout << "Invalid balance!" << endl;
-    }
-}
 
 double Client::getBalance(){
     return Balance;

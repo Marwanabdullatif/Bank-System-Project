@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
 1704632 <<<<<<< Updated upstream
 
-1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
+1757351788 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
 	<iostream>
 	<string>
 	<Person.h>
@@ -18,7 +18,7 @@
 
 1756735671 ated upstream
 
-1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
+1757351788 source:c:\users\alybe\desktop\prog basics\bank system project\src\admin.cpp
 	<iostream>
 	<Person.h>
 	<Employee.h>
@@ -26,28 +26,38 @@
 
 1756738221 
 
-1756827792 c:\users\alybe\desktop\prog basics\bank system project\include\admin.h
+1757351787 c:\users\alybe\desktop\prog basics\bank system project\include\admin.h
 	<Person.h>
 	<Employee.h>
 
-1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\client.cpp
+1757352648 source:c:\users\alybe\desktop\prog basics\bank system project\src\client.cpp
 	"Client.h"
+	<Validation.h>
 	<iostream>
 
-1756741531 c:\users\alybe\desktop\prog basics\bank system project\include\client.h
+1757351788 c:\users\alybe\desktop\prog basics\bank system project\include\client.h
 	<Person.h>
 
-1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\employee.cpp
+1757351788 source:c:\users\alybe\desktop\prog basics\bank system project\src\employee.cpp
 	"Employee.h"
 	<iostream>
 
-1756738224 c:\users\alybe\desktop\prog basics\bank system project\include\employee.h
+1757351788 c:\users\alybe\desktop\prog basics\bank system project\include\employee.h
 	<Person.h>
 
-1756827792 source:c:\users\alybe\desktop\prog basics\bank system project\src\person.cpp
+1757352597 source:c:\users\alybe\desktop\prog basics\bank system project\src\person.cpp
 	"Person.h"
+	<Validation.h>
 	<iostream>
 
 1756741531 c:\users\alybe\desktop\prog basics\bank system project\include\person.h
+	<string>
+
+1757352205 source:c:\users\alybe\desktop\prog basics\bank system project\src\validation.cpp
+	"Validation.h"
+	<cctype>
+	<iostream>
+
+1757352205 c:\users\alybe\desktop\prog basics\bank system project\include\validation.h
 	<string>
 
