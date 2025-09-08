@@ -9,11 +9,8 @@ private:
     double Salary;
 
 public:
-    Admin();
     Admin(int Id , string Name , string Password , double Salary);
-    void setSalary(double Salary);
-    double getSalary();
-    void print4();
+    void print();
 
 };
 

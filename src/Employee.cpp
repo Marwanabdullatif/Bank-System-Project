@@ -16,7 +16,7 @@ void Employee::setSalary(double Salary){
 double Employee::getSalary(){
     return Salary;
 }
-void Employee::print3(){
+void Employee::print(){
  cout << "Emloyee info:" << endl;
  cout << "ID:"<<getId()<<endl;
  cout << "Name:"<<getName()<<endl;

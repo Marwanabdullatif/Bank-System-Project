@@ -45,7 +45,9 @@ using namespace std;
 
 
      void Person::print(){
-        cout<< "ID: " << Id << ", Name: " << Name << ", Password: "<< Password << endl;
+        cout << "ID: " << Id<<endl;
+        cout << " Name: " << Name<< endl;
+        cout << " Password: "<< Password << endl;
     }
 
 //void Person::print(){

@@ -17,7 +17,7 @@ class Client : public Person
     void withdraw(double amount);
     void transferTo(double amount,Client& recipient);
     void checkBalance();
-    void print2();
+    void print();
 
 };
 

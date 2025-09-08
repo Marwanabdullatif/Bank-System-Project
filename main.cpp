@@ -20,18 +20,18 @@ int main()
     c.deposit(2000);
     c.withdraw(1000);
 
-     c.print2();
+     c.print();
     c.checkBalance();
 
     cout <<endl<< "Recipient Info:"<<endl;
-    c2.print2();
+    c2.print();
     c2.checkBalance();
 
     Employee E1(2, "Rana", "Mah1256", 6000);
-    E1.print3();
+    E1.print();
 
     Admin A1(1001, "Tamer", "Teo1515", 9000);
-    A1.print4();
+    A1.print();
 
     return 0;
 }

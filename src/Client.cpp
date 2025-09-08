@@ -55,7 +55,7 @@ void Client::checkBalance(){
     cout<< endl;
 }
 
-void Client::print2(){
+void Client::print(){
     cout << "Client Info:" << endl;
     cout << "ID: " << getId() << endl;
     cout << "Name: " << getName() << endl;

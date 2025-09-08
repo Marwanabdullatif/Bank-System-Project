@@ -10,7 +10,7 @@ private:
         Employee(int Id,string Name ,string Password,double Salary);
         void setSalary(double Salary);
         double getSalary();
-        void print3();
+        void print();
 };
 
 #endif // EMPLOYEE_H
