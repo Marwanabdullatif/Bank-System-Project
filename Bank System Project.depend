@@ -53,11 +53,24 @@
 1756741531 c:\users\alybe\desktop\prog basics\bank system project\include\person.h
 	<string>
 
-1757352205 source:c:\users\alybe\desktop\prog basics\bank system project\src\validation.cpp
+1757352871 source:c:\users\alybe\desktop\prog basics\bank system project\src\validation.cpp
 	"Validation.h"
 	<cctype>
 	<iostream>
 
 1757352205 c:\users\alybe\desktop\prog basics\bank system project\include\validation.h
 	<string>
+
+1757514456 source:c:\users\alybe\desktop\prog basics\bank system project\src\parser.cpp
+	"Parser.h"
+	<sstream>
+
+1757514456 c:\users\alybe\desktop\prog basics\bank system project\include\parser.h
+	<string>
+	<vector>
+	"Client.h"
+	"Employee.h"
+	"Admin.h"
+
+1757514679 source:c:\users\alybe\desktop\prog basics\bank system project\src\datasourceinterface.cpp
 
