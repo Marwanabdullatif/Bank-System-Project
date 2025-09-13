@@ -17,7 +17,7 @@ double Employee::getSalary(){
     return Salary;
 }
 void Employee::print(){
- cout << "Emloyee info:" << endl;
+ cout << "\nEmloyee info:" << endl;
  cout << "ID:"<<getId()<<endl;
  cout << "Name:"<<getName()<<endl;
  cout << "Password:"<< getPassword()<< endl;
