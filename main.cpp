@@ -39,13 +39,13 @@ int main()
     string employeeLine = "2,Omar,5678,7000";
     string adminLine = "3,Laila,abcd,12000";
 
-//    Client c3 = Parser::parseToClient(clientLine);
-//    Employee e = Parser::parseToEmployee(employeeLine);
-//    Admin a = Parser::parseToAdmin(adminLine);
-//
-//    c3.print();
-//    e.print();
-//    a.print();
+    Client c3 = Parser::parseToClient(clientLine);
+    Employee e = Parser::parseToEmployee(employeeLine);
+    Admin a = Parser::parseToAdmin(adminLine);
+
+    c3.print();
+    e.print();
+    a.print();
 
     return 0;
 }

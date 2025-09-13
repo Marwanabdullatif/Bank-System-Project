@@ -1,13 +1,14 @@
 # depslib dependency file v1.0
 1704632 <<<<<<< Updated upstream
 
-1757351788 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
+1757516703 source:c:\users\alybe\desktop\prog basics\bank system project\main.cpp
 	<iostream>
 	<string>
 	<Person.h>
 	<Client.h>
 	<Employee.h>
 	<Admin.h>
+	<Parser.h>
 
 1756733591 shed changes
 	<iostream>
