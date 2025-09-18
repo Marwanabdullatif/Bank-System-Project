@@ -18,8 +18,8 @@ int FilesHelper::getlast(string fileName){
     ifstream file(fileName);
       int Id=0;
     if(file.is_open()){
-        file.close();
         file>>Id;
+        file.close();
     }
     return Id;
 }
