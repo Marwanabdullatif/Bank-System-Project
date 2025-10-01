@@ -17,7 +17,9 @@ using namespace std;
         this->Name = Name;
     }
 }
-
+ void Person::setPassword(string Password){
+  this ->Password=Password;
+ }
     int Person::getId() { return Id; }
 
     string Person::getName() { return Name; }
