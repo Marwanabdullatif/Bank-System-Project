@@ -6,6 +6,7 @@
 #include<Admin.h>
 #include<Parser.h>
 #include<FileHelper.h>
+#include<EmployeeManger.h>
 using namespace std;
 
 int main()
@@ -71,9 +72,28 @@ int main()
         a.print();
     }
 
+    int Id;
+    string password;
+    cout <<"==== Employee loing ===="<<endl;
+    cout <<"Enter Employee ID:"<<endl;
+    cin>> Id;
+    cout <<"Enter password:"<<endl;
+    cin>> password;
 
+Employee* loggedEmployee = EmployeeManger::login(Id, password);
+    if (loggedEmployee != nullptr) {
+        cout << "Welcome " << loggedEmployee->getName() << endl;
+        EmployeeManger::employeeOptions(loggedEmployee);
+        delete loggedEmployee;
+}
+    else {
+        cout << "Login failed... Please try again"<<endl;
+    }
 
+    cout << "Exiting program";
     return 0;
+
+
 }
 
 
